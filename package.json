@@ -1,0 +1,42 @@
+{
+  "name": "SalecialV2",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "jest-expo": "26.0.0",
+    "react-native-scripts": "1.13.1",
+    "react-test-renderer": "16.3.0-alpha.1"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "expo": "^26.0.0",
+    "hoist-non-react-statics": "^2.3.0",
+    "lottie-react-native": "2.3.2",
+    "react": "16.3.0-alpha.1",
+    "react-native": "0.54.0",
+    "react-native-camera": "^1.1.1",
+    "react-native-extended-stylesheet": "^0.8.1",
+    "react-native-image-preview": "^0.3.1",
+    "react-native-indicators": "^0.12.0",
+    "react-native-multiple-tags": "0.0.4",
+    "react-native-pull-refresh": "^1.0.0",
+    "react-native-pull-to-refresh": "^2.1.3",
+    "react-native-ui-kitten": "^3.0.0",
+    "react-native-vector-icons": "^4.6.0",
+    "react-navigation": "^1.5.11",
+    "react-redux": "^5.0.7",
+    "redux": "3.7.2",
+    "redux-logger": "3.0.1",
+    "redux-thunk": "^2.2.0"
+  }
+}
